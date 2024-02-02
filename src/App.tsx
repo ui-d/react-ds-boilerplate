@@ -11,7 +11,7 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className="underline">Vite + React</h1>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

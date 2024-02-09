@@ -9,13 +9,21 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/container-queries"),
-    plugin(function ({ addBase }) {
+    plugin(function ({ addBase, addComponents }) {
       addBase({
         ":root": {
           "--color-accent": "blue",
         },
         ".dark": {
           "--color-accent": "red",
+        },
+      });
+      addComponents({
+        ".heading-900": {
+          "@apply text-[42px]": {},
+          "@apply font-[700]": {},
+          "@apply leading-[110%]": {},
+          "@apply -tracking-[0.42px]": {},
         },
       });
     }),

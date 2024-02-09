@@ -1,8 +1,11 @@
 import { useState } from "react";
 import viteLogo from "/vite.svg";
+import data from "./data.json";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  console.log({ data });
 
   return (
     <>

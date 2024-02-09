@@ -1,0 +1,134 @@
+{
+  "designs": [
+    {
+      "id": "1",
+      "title": "Design 1",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "1",
+        "name": "John Doe 1",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Design 2",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "2",
+        "name": "John Doe 2",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Design 3",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "3",
+        "name": "John Doe 3",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Design 4",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "4",
+        "name": "John Doe 4",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Design 5",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "5",
+        "name": "John Doe 5",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Design 6",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "6",
+        "name": "John Doe 6",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Design 7",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "7",
+        "name": "John Doe 7",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Design 8",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "8",
+        "name": "John Doe 8",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Design 9",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "9",
+        "name": "John Doe 9",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Design 10",
+      "subtitle": "Lorem ipsum dolor",
+      "isPrivate": false,
+      "isFavorite": false,
+      "imageSrc": "https://via.placeholder.com/640x360",
+      "author": {
+        "id": "10",
+        "name": "John Doe 10",
+        "avatarSrc": "https://via.placeholder.com/40x40"
+      }
+    }
+  ]
+}

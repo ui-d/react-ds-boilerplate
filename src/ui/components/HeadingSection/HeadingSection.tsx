@@ -3,10 +3,20 @@ import { Container, Heading, Text } from "../../fundamentals";
 import { cn } from "../../../utils/helpers.ts";
 
 export const HeadingSection = (props: HeadingSectionProps) => {
-  const { size, variant, header, description, className, ...domProps } = props;
+  const {
+    size,
+    variant,
+    header,
+    description,
+    topSpace,
+    bottomSpace,
+    className,
+    ...domProps
+  } = props;
 
   return (
     <Container className="text-center">
+      {topSpace}
       <Heading
         variant={variant}
         size={size}
@@ -19,6 +29,7 @@ export const HeadingSection = (props: HeadingSectionProps) => {
         {" "}
         {description}{" "}
       </Text>
+      {bottomSpace}
     </Container>
   );
 };

@@ -1,30 +1,19 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
-import data from "./data.json";
+import { HeadingSection } from "./ui/components";
+// import data from "./data.json";
+import { InternalSpacer, ExternalSpacer } from "./ui/fundamentals";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  console.log({ data });
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1 className="underline">Vite + React</h1>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p>Click on the Vite and React logos to learn more</p>
-    </>
+    <main className="px-4 xl:px-10">
+      <ExternalSpacer size={500} />
+      <HeadingSection
+        header="My favorites"
+        description="Lorem ipsum dolor sit amet consectetur."
+        variant="h1"
+        size="lg"
+        bottomSpace={<InternalSpacer size="i500" />}
+      />
+    </main>
   );
 }
 

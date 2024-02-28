@@ -1,8 +1,13 @@
-import { HTMLAttributes } from "react"
+import { HTMLAttributes, ReactNode } from "react";
+import { Sizes } from "../../../types.ts";
 
 type TextBaseProps = {
-  children: React.ReactNode
-  className?: string
-}
+  children: ReactNode;
+  size: Sizes;
+  className?: string;
+  asChild?: boolean;
+};
 
-export type TextProps = TextBaseProps & HTMLAttributes<HTMLDivElement>
+export type TextProps = TextBaseProps &
+  HTMLAttributes<HTMLParagraphElement> &
+  HTMLAttributes<HTMLElement>;

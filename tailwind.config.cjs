@@ -53,6 +53,30 @@ module.exports = {
           fontWeight: "600",
           lineHeight: "130%",
         },
+        ".text-700": {
+          color: "var(--content-secondary, #707177)",
+          textAlign: "center",
+          fontFamily: theme('fontFamily.interphases'),
+          fontSize: "1.25rem",
+          fontWeight: "500",
+          lineHeight: "150%",
+        },
+        ".text-600": {
+          color: "var(--content-secondary, #707177)",
+          textAlign: "center",
+          fontFamily: theme('fontFamily.interphases'),
+          fontSize: "1.0625rem",
+          fontWeight: "500",
+          lineHeight: "130%",
+        },
+        ".text-500": {
+          color: "var(--content-secondary, #707177)",
+          textAlign: "center",
+          fontFamily: theme('fontFamily.interphases'),
+          fontSize: "0.875rem",
+          fontWeight: "500",
+          lineHeight: "130%",
+        }
       });
     }),
   ],
